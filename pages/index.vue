@@ -48,24 +48,24 @@
       <div class="flex h-5 w-full items-center justify-center">グッズ</div>
       <div class="flex w-full items-center justify-center">
         <div class="w-1/3 bg-black">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
+          <img class="h-auto w-full" src="@/assets/images/icon_web.png" />
         </div>
         <div class="w-1/3 bg-red-300">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
+          <img class="h-auto w-full" src="@/assets/images/icon_web.png" />
         </div>
         <div class="w-1/3 bg-red-700">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
+          <img class="h-auto w-full" src="@/assets/images/icon_web.png" />
         </div>
       </div>
       <div class="flex w-full items-center justify-center">
         <div class="w-1/3 bg-black">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
+          <img class="h-auto w-full" src="@/assets/images/icon_web.png" />
         </div>
         <div class="w-1/3 bg-red-300">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
+          <img class="h-auto w-full" src="@/assets/images/icon_web.png" />
         </div>
         <div class="w-1/3 bg-red-700">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
+          <img class="h-auto w-full" src="@/assets/images/icon_web.png" />
         </div>
       </div>
       <div class="flex h-5 w-full items-center justify-center">もっと見る</div>
