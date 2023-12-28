@@ -49,7 +49,7 @@
             >
               <div class="flex items-center">
                 <img class="h-5" src="/images/brain.svg" />
-                <div class="ml-2 text-lg">問題一覧</div>
+                <div class="ml-2 text-lg">スタンプ</div>
               </div>
             </nuxt-link>
           </li>
@@ -61,7 +61,7 @@
             >
               <div class="flex items-center">
                 <img class="h-5" src="/images/magnifying_glass.svg" />
-                <div class="ml-2 text-lg">検索</div>
+                <div class="ml-2 text-lg">キャラクター</div>
               </div>
             </nuxt-link>
           </li>
@@ -73,7 +73,19 @@
             >
               <div class="flex items-center">
                 <img class="h-5" src="/images/bell.svg" />
-                <div class="ml-2 text-lg">お知らせ</div>
+                <div class="ml-2 text-lg">グッズ</div>
+              </div>
+            </nuxt-link>
+          </li>
+          <li class="">
+            <nuxt-link
+              :to="routePathList('information_list')"
+              class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
+              @click="toggleClose"
+            >
+              <div class="flex items-center">
+                <img class="h-5" src="/images/bell.svg" />
+                <div class="ml-2 text-lg">X</div>
               </div>
             </nuxt-link>
           </li>
@@ -85,7 +97,19 @@
             >
               <div class="flex items-center">
                 <img class="h-5" src="/images/my_page.svg" />
-                <div class="ml-2 text-lg">マイページ</div>
+                <div class="ml-2 text-lg">instagram</div>
+              </div>
+            </nuxt-link>
+          </li>
+          <li class="">
+            <nuxt-link
+              :to="routePathList('information_list')"
+              class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
+              @click="toggleClose"
+            >
+              <div class="flex items-center">
+                <img class="h-5" src="/images/bell.svg" />
+                <div class="ml-2 text-lg">お問い合わせ</div>
               </div>
             </nuxt-link>
           </li>
