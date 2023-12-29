@@ -39,9 +39,11 @@
     <div>
       <div class="flex h-5 w-full items-center justify-center">ニュース</div>
       <InformationDefaultArea />
-      <div class="flex h-5 w-full items-center justify-center">
-        ニュース一覧へ
-      </div>
+      <nuxt-link :to="routePathList('information_list')" class="">
+        <div class="flex h-5 w-full items-center justify-center">
+          ニュース一覧へ
+        </div>
+      </nuxt-link>
     </div>
     <div class="h-[1px] w-full bg-ThemaColorInversion"></div>
     <div>

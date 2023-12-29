@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>ログイン</div>
+  <div>
+    <div>あんどー</div>
+  </div>
 </template>
