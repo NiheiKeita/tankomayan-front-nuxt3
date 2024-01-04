@@ -43,7 +43,8 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('stamps')"
+              :to="routePathList('stamp_ando')"
+              target="_blank"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
@@ -55,7 +56,7 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('characters')"
+              :to="routePathList('character_list')"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
@@ -67,7 +68,8 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('goods')"
+              :to="routePathList('sns_suzuri')"
+              target="_blank"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
@@ -79,7 +81,8 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('information_list')"
+              :to="routePathList('sns_x')"
+              target="_blank"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
@@ -91,13 +94,14 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('my_page')"
+              :to="routePathList('sns_suzuri')"
+              target="_blank"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
               <div class="flex items-center">
                 <img class="h-5" src="/images/my_page.svg" />
-                <div class="ml-2 text-lg">instagram</div>
+                <div class="ml-2 text-lg">SUZURI</div>
               </div>
             </nuxt-link>
           </li>

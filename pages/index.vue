@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  const linkToOtherWindow = (url: string) => {
+    window.open(url, '_blank');
+  };
+</script>
 
 <template>
   <div>
@@ -17,11 +21,11 @@
               <img
                 class="h-auto w-full rounded-full"
                 src="@/assets/images/ando.png"
-                alt="アンドーさん"
+                alt="アンドウさん"
               />
             </div>
             <div class="mt-2 flex items-center justify-center underline">
-              アンドーさん
+              アンドウさん
             </div>
           </nuxt-link>
         </div>
@@ -111,21 +115,22 @@
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full items-center justify-center">
         <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('character_ando')" class="">
+          <nuxt-link :to="routePathList('sns_suzuri')" class="">
             <div class="w-full rounded-full bg-SubThemaColor">
               <img
                 class="h-auto w-full rounded-full"
-                src="@/assets/images/ando.png"
-                alt="アンドーさん"
+                src="@/assets/images/shop_neko_chan.jpg"
+                alt="ねこちゃんステッカー"
               />
             </div>
             <div class="mt-2 flex items-center justify-center underline">
-              アンドーさん
+              ねこちゃん<br />
+              ステッカー
             </div>
           </nuxt-link>
         </div>
-        <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('character_neko_chan')" class="">
+        <!-- <div class="m-2 w-1/3">
+          <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
             <div class="w-full rounded-full bg-SubThemaColor">
               <img
                 class="h-auto w-full rounded-full"
@@ -139,7 +144,7 @@
           </nuxt-link>
         </div>
         <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('character_paprika')" class="">
+          <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
             <div class="w-full rounded-full bg-SubThemaColor">
               <img
                 class="h-auto w-full rounded-full"
@@ -151,9 +156,9 @@
               パプリカくん
             </div>
           </nuxt-link>
-        </div>
+        </div> -->
       </div>
-      <nuxt-link :to="routePathList('goods_list')" class="">
+      <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
         <div
           class="mb-3 mt-5 flex w-full items-center justify-center underline"
         >
@@ -163,7 +168,7 @@
       <ButtonDefaultThema
         class="mb-3 mt-5 flex w-full items-center justify-center"
         msg="Suzuriへ"
-        @click="navigateTo({ path: routePathList('characters') })"
+        @click="linkToOtherWindow(routePathList('sns_suzuri'))"
       />
     </div>
     <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div>
