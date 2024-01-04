@@ -10,7 +10,7 @@
 
 <template>
   <div class="">
-    <div class="mx-auto flex h-20 w-full items-center justify-between px-8">
+    <div class="mx-auto flex h-10 w-full items-center justify-between px-6">
       <div class="text-white">
         <button
           v-show="!showMenu"
@@ -25,8 +25,8 @@
     </div>
     <transition name="slide-fade" mode="out-in">
       <div v-show="showMenu" class="fixed right-0 top-0 h-full w-1/2 md:w-1/4">
-        <ul class="relative z-20 h-full bg-black">
-          <li class="flex h-20 items-center justify-end px-8">
+        <ul class="relative z-20 h-full bg-ThemaColor">
+          <li class="flex h-10 items-center justify-end px-6 pt-3">
             <div class="flex items-center justify-end text-white">
               <button
                 v-show="showMenu"
@@ -43,7 +43,7 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('question_list')"
+              :to="routePathList('stamps')"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
@@ -55,7 +55,7 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('serch_input')"
+              :to="routePathList('characters')"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
@@ -67,7 +67,7 @@
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('information_list')"
+              :to="routePathList('goods')"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
@@ -101,7 +101,7 @@
               </div>
             </nuxt-link>
           </li>
-          <li class="">
+          <!-- <li class="">
             <nuxt-link
               :to="routePathList('information_list')"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
@@ -112,7 +112,7 @@
                 <div class="ml-2 text-lg">お問い合わせ</div>
               </div>
             </nuxt-link>
-          </li>
+          </li> -->
         </ul>
       </div>
     </transition>

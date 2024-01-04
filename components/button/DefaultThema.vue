@@ -8,7 +8,7 @@
   const emit = defineEmits(['click']);
 
   const clickEvent = () => {
-    console.log('ckick'); // eslint-disable-line no-console
+    console.log('click'); // eslint-disable-line no-console
     emit('click');
   };
 </script>
@@ -19,7 +19,7 @@
       <div
         class="min-w-[200px] rounded-lg border border-ThemaColorComplementary bg-ThemaColor hover:bg-ThemaColorHover"
       >
-        <p class="mx-10 my-2 flex justify-center text-lg text-white">
+        <p class="mx-10 my-1 flex justify-center text-lg text-white lg:my-2">
           {{ msg }}
         </p>
       </div>

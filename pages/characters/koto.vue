@@ -2,7 +2,6 @@
 
 <template>
   <div>
-    <div>キャラクター一覧</div>
-    <CharacterDefaultArea />
+    <div>ことちゃん</div>
   </div>
 </template>
