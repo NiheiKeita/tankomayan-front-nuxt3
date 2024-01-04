@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <div class="mt-10 w-full">
+    <div class="m-2 mt-10 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full items-center justify-center">
         <img
           class="h-auto w-1/2"
@@ -24,7 +24,7 @@
     </div>
     <div class="mt-5 flex w-full items-center justify-center">
       <div class="m-2 w-1/3">
-        <nuxt-link :to="routePathList('stamp_ando')" class="">
+        <nuxt-link :to="routePathList('stamp_ando')" target="_blank">
           <div class="w-full rounded-full bg-SubThemaColor">
             <img
               class="h-auto w-full rounded-full"
