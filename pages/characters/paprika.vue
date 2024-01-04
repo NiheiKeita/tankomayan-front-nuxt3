@@ -14,9 +14,8 @@
         パプリカくん
       </h1>
       <div class="mt-5 flex w-full items-center justify-center px-5">
-        説明文説明文説明文説明文説明文説明文説明文説明文<br />
-        説明文説明文説明文説明文説<br />
-        明文説明文説明文説明文説明文説明文
+        ピーマンが嫌いなアンドウさんが、カレーの中に丸ごと入れられたピーマンをゴミ箱に捨てたら怒って化けてでてきた。<br />
+        夜な夜なアンドウさんの口の中に入って食べられようとしている。
       </div>
     </div>
     <div class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">

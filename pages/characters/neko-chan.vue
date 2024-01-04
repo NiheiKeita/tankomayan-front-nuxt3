@@ -14,9 +14,8 @@
         ねこちゃん
       </h1>
       <div class="mt-5 flex w-full items-center justify-center px-5">
-        説明文説明文説明文説明文説明文説明文説明文説明文<br />
-        説明文説明文説明文説明文説<br />
-        明文説明文説明文説明文説明文説明文
+        アンドウさんが寝ぼけて書いたねこちゃん。<br />
+        朝ご飯を食べているときにコーラをこぼしたら絵から出てきて、今でも家の中をうろうろしている。
       </div>
     </div>
     <div class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">

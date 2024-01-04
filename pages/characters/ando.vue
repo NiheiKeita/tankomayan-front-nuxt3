@@ -14,9 +14,9 @@
         アンドウさん
       </h1>
       <div class="mt-5 flex w-full items-center justify-center px-5">
-        説明文説明文説明文説明文説明文説明文説明文説明文<br />
-        説明文説明文説明文説明文説<br />
-        明文説明文説明文説明文説明文説明文
+        正体不明の謎の生物。<br />
+        悪いことをしたり片思いの相手と話したりすると、すぐに顔にでる。そのため隠し事もできない。<br />
+        ピーマンが嫌い。
       </div>
     </div>
     <div class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">
