@@ -10,7 +10,9 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'たんこまやん',
-      meta: [{ name: 'description', content: 'たんこまやん' }],
+      meta: [
+        { hid: 'og:image', property: 'og:image', content: '/images/logo.png' },
+      ],
       link: [{ rel: 'icon', href: '/images/icon_web.png' }],
     },
   },

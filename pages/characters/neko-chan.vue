@@ -1,4 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  useHead({
+    title: 'たんこまやん|ねこちゃん',
+    meta: [
+      { property: 'og:title', content: 'たんこまやん|ねこちゃん' },
+      {
+        property: 'og:description',
+        content: 'たんこまやん|ねこちゃんのページ',
+      },
+      { property: 'description', content: 'たんこまやん|ねこちゃんのページ' },
+    ],
+  });
+</script>
 
 <template>
   <div>

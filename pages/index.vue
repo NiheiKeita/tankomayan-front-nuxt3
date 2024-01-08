@@ -2,6 +2,14 @@
   const linkToOtherWindow = (url: string) => {
     window.open(url, '_blank');
   };
+  useHead({
+    title: 'たんこまやん|TOP',
+    meta: [
+      { property: 'og:title', content: 'たんこまやん|TOP' },
+      { property: 'og:description', content: 'たんこまやん|TOPのページ' },
+      { property: 'description', content: 'たんこまやん|TOPのページ' },
+    ],
+  });
 </script>
 
 <template>
