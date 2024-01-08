@@ -1,10 +1,10 @@
 <script setup lang="ts">
-  defineProps({
-    msg: {
-      type: String,
-      default: 'button',
-    },
-  });
+  // defineProps({
+  //   msg: {
+  //     type: String,
+  //     default: 'button',
+  //   },
+  // });
   const emit = defineEmits(['click']);
 
   const clickEvent = () => {
@@ -20,7 +20,7 @@
         class="min-w-[200px] rounded-lg border border-ThemaColorComplementary bg-ThemaColor hover:bg-ThemaColorHover"
       >
         <p class="mx-10 my-1 flex justify-center text-lg text-white lg:my-2">
-          {{ msg }}
+          <slot />
         </p>
       </div>
     </a>

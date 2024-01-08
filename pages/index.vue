@@ -80,16 +80,19 @@
           <img class="h-auto w-full" src="/images/icon_web.png" />
         </div> -->
       </div>
-      <ButtonDefaultThema
+      <!-- <ButtonDefaultThema
         class="mb-3 mt-5 flex w-full items-center justify-center"
         msg="キャラクター一覧へ"
         @click="navigateTo({ path: routePathList('character_list') })"
-      />
+      /> -->
       <ButtonDefaultThema
         class="mb-3 mt-5 flex w-full items-center justify-center"
-        msg="LINEスタンプ"
         @click="navigateTo({ path: routePathList('character_list') })"
-      />
+        ><img
+          class="mx-1 h-6"
+          src="@/assets/images/icon_LINE.png"
+        />LINEスタンプ</ButtonDefaultThema
+      >
     </div>
     <!-- <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div>
     <div>
@@ -115,7 +118,7 @@
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full items-center justify-center">
         <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('sns_suzuri')" class="">
+          <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
             <div class="w-full rounded-full bg-SubThemaColor">
               <img
                 class="h-auto w-full rounded-full"
@@ -167,9 +170,13 @@
       </nuxt-link>
       <ButtonDefaultThema
         class="mb-3 mt-5 flex w-full items-center justify-center"
-        msg="Suzuriへ"
         @click="linkToOtherWindow(routePathList('sns_suzuri'))"
-      />
+      >
+        <img
+          class="mx-1 h-6"
+          src="@/assets/images/icon_suzuri.png"
+        />Suzuriへ</ButtonDefaultThema
+      >
     </div>
     <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div>
   </div>

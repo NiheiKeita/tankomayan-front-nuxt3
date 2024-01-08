@@ -41,7 +41,7 @@
               </button>
             </div>
           </li>
-          <li class="">
+          <li class="mt-2">
             <nuxt-link
               :to="routePathList('stamp_ando')"
               target="_blank"
@@ -49,19 +49,19 @@
               @click="toggleClose"
             >
               <div class="flex items-center">
-                <img class="h-5" src="/images/brain.svg" />
+                <img class="h-6" src="@/assets/images/icon_LINE.png" />
                 <div class="ml-2 text-lg">スタンプ</div>
               </div>
             </nuxt-link>
           </li>
           <li class="">
             <nuxt-link
-              :to="routePathList('character_list')"
+              :to="routePathList('top')"
               class="inline-block w-full p-5 text-white sm:hover:bg-gray-600"
               @click="toggleClose"
             >
               <div class="flex items-center">
-                <img class="h-5" src="/images/magnifying_glass.svg" />
+                <img class="h-6" src="@/assets/images/ando.png" />
                 <div class="ml-2 text-lg">キャラクター</div>
               </div>
             </nuxt-link>
@@ -74,7 +74,7 @@
               @click="toggleClose"
             >
               <div class="flex items-center">
-                <img class="h-5" src="/images/bell.svg" />
+                <img class="h-6" src="@/assets/images/icon_goods.svg" />
                 <div class="ml-2 text-lg">グッズ</div>
               </div>
             </nuxt-link>
@@ -87,8 +87,8 @@
               @click="toggleClose"
             >
               <div class="flex items-center">
-                <img class="h-5" src="/images/bell.svg" />
-                <div class="ml-2 text-lg">X</div>
+                <img class="m-1 h-4" src="@/assets/images/logo-black-x.png" />
+                <div class="ml-2 text-lg">X(旧Twitter)</div>
               </div>
             </nuxt-link>
           </li>
@@ -100,7 +100,7 @@
               @click="toggleClose"
             >
               <div class="flex items-center">
-                <img class="h-5" src="/images/my_page.svg" />
+                <img class="h-6" src="@/assets/images/icon_suzuri.png" />
                 <div class="ml-2 text-lg">SUZURI</div>
               </div>
             </nuxt-link>
@@ -112,7 +112,7 @@
               @click="toggleClose"
             >
               <div class="flex items-center">
-                <img class="h-5" src="/images/bell.svg" />
+                <img class="" src="/images/bell.svg" />
                 <div class="ml-2 text-lg">お問い合わせ</div>
               </div>
             </nuxt-link>
