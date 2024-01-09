@@ -1,13 +1,13 @@
 <script setup lang="ts">
   useHead({
-    title: 'たんこまやん|アンドウさん',
+    title: 'たんこまゃん|アンドウさん',
     meta: [
-      { property: 'og:title', content: 'たんこまやん|アンドウさん' },
+      { property: 'og:title', content: 'たんこまゃん|アンドウさん' },
       {
         property: 'og:description',
-        content: 'たんこまやん|アンドウさんのページ',
+        content: 'たんこまゃん|アンドウさんのページ',
       },
-      { property: 'description', content: 'たんこまやん|アンドウさんのページ' },
+      { property: 'description', content: 'たんこまゃん|アンドウさんのページ' },
     ],
   });
 </script>
@@ -50,6 +50,38 @@
           </div>
         </nuxt-link>
       </div>
+    </div>
+    <h2 class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">
+      グッズ
+    </h2>
+    <div class="flex w-full flex-wrap items-baseline justify-center">
+      <GoodsDefaultArea
+        class="w-1/3 p-2"
+        :link="routePathList('shop_ando_smartphone_case')"
+        image="/images/shop/ando_smartphone_case.jpg"
+        alt="アンドウさんスマホケース"
+      >
+        アンドウさん<br />
+        スマホケース
+      </GoodsDefaultArea>
+      <GoodsDefaultArea
+        class="w-1/3 p-2"
+        :link="routePathList('shop_ando_t-shirt')"
+        image="/images/shop/ando_t-shirt.jpg"
+        alt="アンドウさんTシャツ"
+      >
+        アンドウさん<br />
+        Tシャツ
+      </GoodsDefaultArea>
+      <GoodsDefaultArea
+        class="w-1/3 p-2"
+        :link="routePathList('shop_ando_cup')"
+        image="/images/shop/ando_cup.jpg"
+        alt="アンドウさんカップ"
+      >
+        アンドウさん<br />
+        カップ
+      </GoodsDefaultArea>
     </div>
   </div>
 </template>

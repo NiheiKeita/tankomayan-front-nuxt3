@@ -6,7 +6,7 @@
         <!-- <p
           class="flex items-center justify-center text-2xl font-bold leading-3 text-white"
         >
-          たんこまやん
+          たんこまゃん
         </p> -->
       </div>
     </nuxt-link>

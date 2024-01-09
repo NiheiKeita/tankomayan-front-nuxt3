@@ -53,6 +53,17 @@ export function routePathList(pathName: String, id = 0) {
       route = 'https://suzuri.jp/nakinaki02/5822806/mug/m/white';
       break;
 
+    case 'shop_ando_t-shirt':
+      route = 'https://suzuri.jp/nakinaki02/15014443/t-shirt/s/white';
+      break;
+    case 'shop_ando_smartphone_case':
+      route =
+        'https://suzuri.jp/nakinaki02/15014443/clear-smartphone-case/iphone15/clear';
+      break;
+    case 'shop_ando_cup':
+      route = 'https://suzuri.jp/nakinaki02/15014443/mug/m/white';
+      break;
+
     case 'sns_x':
       route = 'https://x.com/andou_san_dayo?s=21&t=XsUEUglZD1BLrqDy4Ts-PA';
       break;

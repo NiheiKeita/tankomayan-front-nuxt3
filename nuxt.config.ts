@@ -9,11 +9,11 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'たんこまやん',
+      title: 'たんこまゃん',
       meta: [
         { hid: 'og:image', property: 'og:image', content: '/images/logo.png' },
       ],
-      link: [{ rel: 'icon', href: '/images/icon_web.png' }],
+      link: [{ rel: 'icon', href: '/favicon.ico' }],
     },
   },
   devtools: { enabled: true },

@@ -3,11 +3,19 @@
     window.open(url, '_blank');
   };
   useHead({
-    title: 'たんこまやん|TOP',
+    title: 'たんこまゃん|TOP',
     meta: [
-      { property: 'og:title', content: 'たんこまやん|TOP' },
-      { property: 'og:description', content: 'たんこまやん|TOPのページ' },
-      { property: 'description', content: 'たんこまやん|TOPのページ' },
+      { property: 'og:title', content: 'たんこまゃん|TOP' },
+      {
+        property: 'og:description',
+        content:
+          'たんこまゃん|たんこまゃんのTOPページです。たんこまゃんの仲間たちがたくさんいる。LINEスタンプやグッズもあります。',
+      },
+      {
+        property: 'description',
+        content:
+          'たんこまゃん|たんこまゃんのTOPページです。たんこまゃんの仲間たちがたくさんいる。LINEスタンプやグッズもあります。',
+      },
     ],
   });
 </script>
@@ -114,6 +122,34 @@
           alt="ねこちゃんカップ"
         >
           ねこちゃん<br />
+          カップ
+        </GoodsDefaultArea>
+
+        <GoodsDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('shop_ando_smartphone_case')"
+          image="/images/shop/ando_smartphone_case.jpg"
+          alt="アンドウさんスマホケース"
+        >
+          アンドウさん<br />
+          スマホケース
+        </GoodsDefaultArea>
+        <GoodsDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('shop_ando_t-shirt')"
+          image="/images/shop/ando_t-shirt.jpg"
+          alt="アンドウさんTシャツ"
+        >
+          アンドウさん<br />
+          Tシャツ
+        </GoodsDefaultArea>
+        <GoodsDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('shop_ando_cup')"
+          image="/images/shop/ando_cup.jpg"
+          alt="アンドウさんカップ"
+        >
+          アンドウさん<br />
           カップ
         </GoodsDefaultArea>
       </div>
