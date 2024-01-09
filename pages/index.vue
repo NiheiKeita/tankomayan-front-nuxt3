@@ -18,9 +18,9 @@
       <img class="h-auto w-full" src="/images/icon_web.png" />
     </div> -->
     <!-- <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div> -->
-    <div class="my-4 flex h-5 w-full items-center justify-center text-xl">
+    <h2 class="my-4 flex h-5 w-full items-center justify-center text-xl">
       キャラクター
-    </div>
+    </h2>
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full flex-wrap items-baseline justify-center">
         <CharacterDefaultArea
@@ -84,9 +84,9 @@
     </div>
     <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div> -->
 
-    <div class="my-4 flex h-5 w-full items-center justify-center text-xl">
+    <h2 class="my-4 flex h-5 w-full items-center justify-center text-xl">
       グッズ
-    </div>
+    </h2>
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full flex-wrap items-baseline justify-center">
         <GoodsDefaultArea

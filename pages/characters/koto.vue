@@ -30,9 +30,9 @@
         夜は寝ないで動き回っている。
       </div>
     </div>
-    <div class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">
+    <h2 class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">
       スタンプ
-    </div>
+    </h2>
     <div class="mt-5 flex w-full items-center justify-center">
       <div class="m-2 w-1/3">
         <nuxt-link :to="routePathList('stamp_koto')" target="_blank">
