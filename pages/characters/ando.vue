@@ -18,7 +18,7 @@
       <div class="flex w-full items-center justify-center">
         <img
           class="h-auto w-1/2"
-          src="@/assets/images/ando.png"
+          src="/images/characters/ando.png"
           alt="アンドウさん"
         />
       </div>
@@ -40,7 +40,7 @@
           <div class="w-full rounded-full bg-SubThemaColor">
             <img
               class="h-auto w-full rounded-full"
-              src="@/assets/images/ando.png"
+              src="/images/characters/ando.png"
               target="_blank"
               alt="アンドウさん１"
             />

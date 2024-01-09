@@ -18,7 +18,7 @@
       <div class="flex w-full items-center justify-center">
         <img
           class="h-auto w-1/2"
-          src="@/assets/images/neko-chan.png"
+          src="/images/characters/neko-chan.png"
           alt="ねこちゃん"
         />
       </div>
@@ -33,23 +33,34 @@
     <div class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">
       グッズ
     </div>
-    <div class="mt-5 flex w-full items-center justify-center">
-      <div class="m-2 w-1/3">
-        <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
-          <div class="w-full rounded-full bg-SubThemaColor">
-            <img
-              class="h-auto w-full rounded-full"
-              src="@/assets/images/shop/neko_chan_sticker.jpg"
-              target="_blank"
-              alt="ねこちゃんステッカー"
-            />
-          </div>
-          <div class="mt-2 flex items-center justify-center underline">
-            ねこちゃん<br />
-            ステッカー
-          </div>
-        </nuxt-link>
-      </div>
+    <div class="flex w-full flex-wrap items-baseline justify-center">
+      <GoodsDefaultArea
+        class="w-1/3 p-2"
+        :link="routePathList('shop_neko_chan_sticker')"
+        image="/images/shop/neko_chan_sticker.jpg"
+        alt="ねこちゃんステッカー"
+      >
+        ねこちゃん<br />
+        ステッカー
+      </GoodsDefaultArea>
+      <GoodsDefaultArea
+        class="w-1/3 p-2"
+        :link="routePathList('shop_neko_chan_sweat')"
+        image="/images/shop/neko_chan_sweat.jpg"
+        alt="ねこちゃんスウェット"
+      >
+        ねこちゃん<br />
+        スウェット
+      </GoodsDefaultArea>
+      <GoodsDefaultArea
+        class="w-1/3 p-2"
+        :link="routePathList('shop_neko_chan_cup')"
+        image="/images/shop/neko_chan_cup.jpg"
+        alt="ねこちゃんカップ"
+      >
+        ねこちゃん<br />
+        カップ
+      </GoodsDefaultArea>
     </div>
   </div>
 </template>

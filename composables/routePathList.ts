@@ -43,10 +43,10 @@ export function routePathList(pathName: String, id = 0) {
         'https://store.line.me/stickershop/product/18427147/ja?from=sticker';
       break;
 
-    case 'neko_chan_sticker':
+    case 'shop_neko_chan_sticker':
       route = 'https://suzuri.jp/nakinaki02/5822806/sticker/m/white';
       break;
-    case 'neko_chan_sweat':
+    case 'shop_neko_chan_sweat':
       route = 'https://suzuri.jp/nakinaki02/5822806/big-sweat/m/white';
       break;
     case 'shop_neko_chan_cup':

@@ -26,28 +26,28 @@
         <CharacterDefaultArea
           class="w-1/3 p-2"
           :link="routePathList('character_ando')"
-          image="images/characters/ando.png"
+          image="/images/characters/ando.png"
           alt="アンドウさん"
           >アンドウさん
         </CharacterDefaultArea>
         <CharacterDefaultArea
           class="w-1/3 p-2"
           :link="routePathList('character_neko_chan')"
-          image="images/characters/neko-chan.png"
+          image="/images/characters/neko-chan.png"
           alt="ねこちゃん"
           >ねこちゃん
         </CharacterDefaultArea>
         <CharacterDefaultArea
           class="w-1/3 p-2"
           :link="routePathList('character_paprika')"
-          image="images/characters/paprika.png"
+          image="/images/characters/paprika.png"
           alt="パプリカくん"
           >パプリカくん
         </CharacterDefaultArea>
         <CharacterDefaultArea
           class="w-1/3 p-2"
           :link="routePathList('character_koto')"
-          image="images/characters/koto.png"
+          image="/images/characters/koto.png"
           alt="ことちゃん"
           >ことちゃん
         </CharacterDefaultArea>
@@ -89,33 +89,33 @@
     </div>
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full flex-wrap items-baseline justify-center">
-        <CharacterDefaultArea
+        <GoodsDefaultArea
           class="w-1/3 p-2"
-          :link="routePathList('neko_chan_sticker')"
-          image="images/shop/neko_chan_sticker.jpg"
+          :link="routePathList('shop_neko_chan_sticker')"
+          image="/images/shop/neko_chan_sticker.jpg"
           alt="ねこちゃんステッカー"
         >
           ねこちゃん<br />
           ステッカー
-        </CharacterDefaultArea>
-        <CharacterDefaultArea
+        </GoodsDefaultArea>
+        <GoodsDefaultArea
           class="w-1/3 p-2"
-          :link="routePathList('neko_chan_sweat')"
-          image="images/shop/neko_chan_sweat.jpg"
+          :link="routePathList('shop_neko_chan_sweat')"
+          image="/images/shop/neko_chan_sweat.jpg"
           alt="ねこちゃんスウェット"
         >
           ねこちゃん<br />
           スウェット
-        </CharacterDefaultArea>
-        <CharacterDefaultArea
+        </GoodsDefaultArea>
+        <GoodsDefaultArea
           class="w-1/3 p-2"
-          :link="routePathList('neko_chan_cup')"
-          image="images/shop/neko_chan_cup.jpg"
+          :link="routePathList('shop_neko_chan_cup')"
+          image="/images/shop/neko_chan_cup.jpg"
           alt="ねこちゃんカップ"
         >
           ねこちゃん<br />
           カップ
-        </CharacterDefaultArea>
+        </GoodsDefaultArea>
       </div>
       <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
         <div

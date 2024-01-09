@@ -61,7 +61,7 @@
               @click="toggleClose"
             >
               <div class="flex items-center">
-                <img class="h-6" src="@/assets/images/ando.png" />
+                <img class="h-6" src="/images/characters/ando.png" />
                 <div class="ml-2 text-lg">キャラクター</div>
               </div>
             </nuxt-link>

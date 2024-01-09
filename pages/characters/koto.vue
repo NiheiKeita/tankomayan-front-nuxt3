@@ -18,7 +18,7 @@
       <div class="flex w-full items-center justify-center">
         <img
           class="h-auto w-1/2"
-          src="@/assets/images/koto.png"
+          src="/images/characters/koto.png"
           alt="ことちゃん"
         />
       </div>
@@ -39,7 +39,7 @@
           <div class="w-full rounded-full bg-SubThemaColor">
             <img
               class="h-auto w-full rounded-full"
-              src="@/assets/images/koto.png"
+              src="/images/characters/koto.png"
               target="_blank"
               alt="ことちゃん"
             />
