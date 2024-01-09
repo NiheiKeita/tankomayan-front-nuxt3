@@ -39,7 +39,7 @@
           <div class="w-full rounded-full bg-SubThemaColor">
             <img
               class="h-auto w-full rounded-full"
-              src="@/assets/images/shop_neko_chan.jpg"
+              src="@/assets/images/shop/neko_chan_sticker.jpg"
               target="_blank"
               alt="ねこちゃんステッカー"
             />

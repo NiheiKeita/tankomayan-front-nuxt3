@@ -42,12 +42,24 @@ export function routePathList(pathName: String, id = 0) {
       route =
         'https://store.line.me/stickershop/product/18427147/ja?from=sticker';
       break;
+
+    case 'neko_chan_sticker':
+      route = 'https://suzuri.jp/nakinaki02/5822806/sticker/m/white';
+      break;
+    case 'neko_chan_sweat':
+      route = 'https://suzuri.jp/nakinaki02/5822806/big-sweat/m/white';
+      break;
+    case 'shop_neko_chan_cup':
+      route = 'https://suzuri.jp/nakinaki02/5822806/mug/m/white';
+      break;
+
     case 'sns_x':
       route = 'https://x.com/andou_san_dayo?s=21&t=XsUEUglZD1BLrqDy4Ts-PA';
       break;
     case 'sns_suzuri':
-      route = 'https://suzuri.jp/nakinaki02';
+      route = 'https://suzuri.jp/nakinaki02/home';
       break;
+
     default:
       route = '/';
   }

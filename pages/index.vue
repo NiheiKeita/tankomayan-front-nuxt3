@@ -22,71 +22,35 @@
       キャラクター
     </div>
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
-      <div class="flex w-full items-center justify-center">
-        <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('character_ando')" class="">
-            <div class="w-full rounded-full bg-SubThemaColor">
-              <img
-                class="h-auto w-full rounded-full"
-                src="@/assets/images/ando.png"
-                alt="アンドウさん"
-              />
-            </div>
-            <div class="mt-2 flex items-center justify-center underline">
-              アンドウさん
-            </div>
-          </nuxt-link>
-        </div>
-        <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('character_neko_chan')" class="">
-            <div class="w-full rounded-full bg-SubThemaColor">
-              <img
-                class="h-auto w-full rounded-full"
-                src="@/assets/images/neko-chan.png"
-                alt="ねこちゃん"
-              />
-            </div>
-            <div class="mt-2 flex items-center justify-center underline">
-              ねこちゃん
-            </div>
-          </nuxt-link>
-        </div>
-        <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('character_paprika')" class="">
-            <div class="w-full rounded-full bg-SubThemaColor">
-              <img
-                class="h-auto w-full rounded-full"
-                src="@/assets/images/paprika.png"
-                alt="パプリカくん"
-              />
-            </div>
-            <div class="mt-2 flex items-center justify-center underline">
-              パプリカくん
-            </div>
-          </nuxt-link>
-        </div>
-      </div>
-      <div class="flex w-full items-center justify-center">
-        <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('character_koto')" class="">
-            <div class="w-full rounded-full bg-SubThemaColor">
-              <img
-                class="h-auto w-full rounded-full"
-                src="@/assets/images/koto.png"
-                alt="ことちゃん"
-              />
-            </div>
-            <div class="mt-2 flex items-center justify-center underline">
-              ことちゃん
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- <div class="w-1/3 bg-red-300">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
-        </div>
-        <div class="w-1/3 bg-red-700">
-          <img class="h-auto w-full" src="/images/icon_web.png" />
-        </div> -->
+      <div class="flex w-full flex-wrap items-baseline justify-center">
+        <CharacterDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('character_ando')"
+          image="images/characters/ando.png"
+          alt="アンドウさん"
+          >アンドウさん
+        </CharacterDefaultArea>
+        <CharacterDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('character_neko_chan')"
+          image="images/characters/neko-chan.png"
+          alt="ねこちゃん"
+          >ねこちゃん
+        </CharacterDefaultArea>
+        <CharacterDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('character_paprika')"
+          image="images/characters/paprika.png"
+          alt="パプリカくん"
+          >パプリカくん
+        </CharacterDefaultArea>
+        <CharacterDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('character_koto')"
+          image="images/characters/koto.png"
+          alt="ことちゃん"
+          >ことちゃん
+        </CharacterDefaultArea>
       </div>
       <!-- <ButtonDefaultThema
         class="mb-3 mt-5 flex w-full items-center justify-center"
@@ -124,50 +88,34 @@
       グッズ
     </div>
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
-      <div class="flex w-full items-center justify-center">
-        <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
-            <div class="w-full rounded-full bg-SubThemaColor">
-              <img
-                class="h-auto w-full rounded-full"
-                src="@/assets/images/shop_neko_chan.jpg"
-                alt="ねこちゃんステッカー"
-              />
-            </div>
-            <div class="mt-2 flex items-center justify-center underline">
-              ねこちゃん<br />
-              ステッカー
-            </div>
-          </nuxt-link>
-        </div>
-        <!-- <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
-            <div class="w-full rounded-full bg-SubThemaColor">
-              <img
-                class="h-auto w-full rounded-full"
-                src="@/assets/images/neko-chan.png"
-                alt="ねこちゃん"
-              />
-            </div>
-            <div class="mt-2 flex items-center justify-center underline">
-              ねこちゃん
-            </div>
-          </nuxt-link>
-        </div>
-        <div class="m-2 w-1/3">
-          <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
-            <div class="w-full rounded-full bg-SubThemaColor">
-              <img
-                class="h-auto w-full rounded-full"
-                src="@/assets/images/paprika.png"
-                alt="パプリカくん"
-              />
-            </div>
-            <div class="mt-2 flex items-center justify-center underline">
-              パプリカくん
-            </div>
-          </nuxt-link>
-        </div> -->
+      <div class="flex w-full flex-wrap items-baseline justify-center">
+        <CharacterDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('neko_chan_sticker')"
+          image="images/shop/neko_chan_sticker.jpg"
+          alt="ねこちゃんステッカー"
+        >
+          ねこちゃん<br />
+          ステッカー
+        </CharacterDefaultArea>
+        <CharacterDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('neko_chan_sweat')"
+          image="images/shop/neko_chan_sweat.jpg"
+          alt="ねこちゃんスウェット"
+        >
+          ねこちゃん<br />
+          スウェット
+        </CharacterDefaultArea>
+        <CharacterDefaultArea
+          class="w-1/3 p-2"
+          :link="routePathList('neko_chan_cup')"
+          image="images/shop/neko_chan_cup.jpg"
+          alt="ねこちゃんカップ"
+        >
+          ねこちゃん<br />
+          カップ
+        </CharacterDefaultArea>
       </div>
       <nuxt-link :to="routePathList('sns_suzuri')" target="_blank">
         <div
