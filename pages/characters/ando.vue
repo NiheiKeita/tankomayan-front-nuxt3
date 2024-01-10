@@ -1,13 +1,13 @@
 <script setup lang="ts">
   useHead({
-    title: 'たんこまゃん|アンドウさん',
+    title: 'たんこまゃん-アンドウさん',
     meta: [
-      { property: 'og:title', content: 'たんこまゃん|アンドウさん' },
+      { property: 'og:title', content: 'たんこまゃん-アンドウさん' },
       {
         property: 'og:description',
-        content: 'たんこまゃん|アンドウさんのページ',
+        content: 'たんこまゃん-アンドウさんのページ',
       },
-      { property: 'description', content: 'たんこまゃん|アンドウさんのページ' },
+      { property: 'description', content: 'たんこまゃん-アンドウさんのページ' },
     ],
   });
 </script>

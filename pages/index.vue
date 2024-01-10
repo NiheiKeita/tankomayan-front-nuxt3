@@ -3,18 +3,18 @@
     window.open(url, '_blank');
   };
   useHead({
-    title: 'たんこまゃん|TOP',
+    title: 'たんこまゃん-TOP',
     meta: [
-      { property: 'og:title', content: 'たんこまゃん|TOP' },
+      { property: 'og:title', content: 'たんこまゃん-TOP' },
       {
         property: 'og:description',
         content:
-          'たんこまゃん|たんこまゃんのTOPページです。たんこまゃんの仲間たちがたくさんいる。LINEスタンプやグッズもあります。',
+          'たんこまゃん-たんこまゃんのTOPページです。たんこまゃんの仲間たちがたくさんいる。LINEスタンプやグッズもあります。',
       },
       {
         property: 'description',
         content:
-          'たんこまゃん|たんこまゃんのTOPページです。たんこまゃんの仲間たちがたくさんいる。LINEスタンプやグッズもあります。',
+          'たんこまゃん-たんこまゃんのTOPページです。たんこまゃんの仲間たちがたくさんいる。LINEスタンプやグッズもあります。',
       },
     ],
   });

@@ -1,13 +1,13 @@
 <script setup lang="ts">
   useHead({
-    title: 'たんこまゃん|パプリカくん',
+    title: 'たんこまゃん-パプリカくん',
     meta: [
-      { property: 'og:title', content: 'たんこまゃん|パプリカくん' },
+      { property: 'og:title', content: 'たんこまゃん-パプリカくん' },
       {
         property: 'og:description',
-        content: 'たんこまゃん|パプリカくんのページ',
+        content: 'たんこまゃん-パプリカくんのページ',
       },
-      { property: 'description', content: 'たんこまゃん|パプリカくんのページ' },
+      { property: 'description', content: 'たんこまゃん-パプリカくんのページ' },
     ],
   });
 </script>
