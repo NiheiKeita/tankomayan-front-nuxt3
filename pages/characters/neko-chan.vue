@@ -30,9 +30,11 @@
         朝ご飯を食べているときにコーラをこぼしたら絵から出てきて、今でも家の中をうろうろしている。
       </div>
     </div>
-    <h2 class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">
-      グッズ
-    </h2>
+    <TextDefaultArea
+      class="mt-4"
+      text="グッズ"
+      image="/images/text/text_goods.png"
+    />
     <div class="flex w-full flex-wrap items-baseline justify-center">
       <GoodsDefaultArea
         class="w-1/3 p-2"

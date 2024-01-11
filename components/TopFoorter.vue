@@ -9,6 +9,18 @@
 
 <template>
   <div class="my-20">
+    <div class="m-2 rounded-md p-2">
+      <nuxt-link
+        :to="routePathList('stamp_ando')"
+        target="_blank"
+        class="flex items-center justify-center"
+      >
+        <img
+          class="h-auto w-2/3 lg:w-1/4"
+          src="/images/banner/banner_line_1.png"
+        />
+      </nuxt-link>
+    </div>
     <!-- <div class="flex w-full items-center justify-center">お問い合わせ</div> -->
     <div class="flex w-full items-center justify-center">
       <div class="flex justify-between space-x-5">

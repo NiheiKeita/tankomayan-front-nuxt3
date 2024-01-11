@@ -22,13 +22,24 @@
 
 <template>
   <div>
-    <!-- <div class="w-full">
-      <img class="h-auto w-full" src="/images/icon_web.png" />
-    </div> -->
-    <!-- <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div> -->
-    <h2 class="my-4 flex h-5 w-full items-center justify-center text-xl">
-      キャラクター
-    </h2>
+    <div class="m-2 mt-4 rounded-md bg-SubBgThemaColor p-2">
+      <nuxt-link
+        :to="routePathList('stamp_ando')"
+        target="_blank"
+        class="flex items-center justify-center"
+      >
+        <img
+          class="h-auto w-full lg:w-1/2"
+          src="/images/notice/notice_1.jpeg"
+        />
+      </nuxt-link>
+    </div>
+
+    <TextDefaultArea
+      class="mt-4"
+      text="キャラクター"
+      image="/images/text/text_character.png"
+    />
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full flex-wrap items-baseline justify-center">
         <CharacterDefaultArea
@@ -92,9 +103,11 @@
     </div>
     <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div> -->
 
-    <h2 class="my-4 flex h-5 w-full items-center justify-center text-xl">
-      グッズ
-    </h2>
+    <TextDefaultArea
+      class="mt-4"
+      text="グッズ"
+      image="/images/text/text_goods.png"
+    />
     <div class="m-2 rounded-md bg-SubBgThemaColor p-2">
       <div class="flex w-full flex-wrap items-baseline justify-center">
         <GoodsDefaultArea
@@ -170,6 +183,5 @@
         />Suzuriへ</ButtonDefaultThema
       >
     </div>
-    <div class="my-2 h-[1px] w-full bg-SubThemaColor"></div>
   </div>
 </template>

@@ -30,10 +30,12 @@
         夜は寝ないで動き回っている。
       </div>
     </div>
-    <h2 class="my-4 mt-10 flex h-5 w-full items-center justify-center text-xl">
-      スタンプ
-    </h2>
-    <div class="mt-5 flex w-full items-center justify-center">
+    <TextDefaultArea
+      class="mt-4"
+      text="スタンプ"
+      image="/images/text/text_line_stamp.png"
+    />
+    <div class="flex w-full items-center justify-center">
       <div class="m-2 w-1/3">
         <nuxt-link :to="routePathList('stamp_koto')" target="_blank">
           <div class="w-full rounded-full bg-SubThemaColor">
