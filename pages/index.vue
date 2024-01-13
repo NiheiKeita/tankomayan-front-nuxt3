@@ -1,4 +1,12 @@
 <script setup lang="ts">
+  import { Autoplay, Navigation, Pagination } from 'swiper';
+  import 'swiper/css';
+  // import 'swiper/css/navigation';
+  import 'swiper/css/pagination';
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+
+  const modules = [Autoplay, Pagination, Navigation];
+
   const linkToOtherWindow = (url: string) => {
     window.open(url, '_blank');
   };
@@ -22,17 +30,56 @@
 
 <template>
   <div>
-    <div class="m-2 mt-4 rounded-md bg-SubBgThemaColor p-2">
-      <nuxt-link
-        :to="routePathList('stamp_ando')"
-        target="_blank"
-        class="flex items-center justify-center"
+    <div class="relative m-2 mt-4 rounded-md bg-SubBgThemaColor p-2">
+      <Swiper
+        :slides-per-view="1.5"
+        :speed="1000"
+        :loop="true"
+        :autoplay="{ delay: 3000 }"
+        :modules="modules"
+        :centered-slides="true"
+        :space-between="30"
+        :navigation="{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        }"
+        :pagination="true"
+      >
+        <SwiperSlide>
+          <nuxt-link
+            :to="routePathList('stamp_ando')"
+            target="_blank"
+            class="flex items-center justify-center"
+          >
+            <img class="h-auto w-full" src="/images/notice/notice_1.jpeg" />
+          </nuxt-link>
+        </SwiperSlide>
+        <SwiperSlide>
+          <nuxt-link
+            :to="routePathList('stamp_ando')"
+            target="_blank"
+            class="flex items-center justify-center"
+          >
+            <img class="h-auto w-full" src="/images/notice/notice_1.jpeg" />
+          </nuxt-link>
+        </SwiperSlide>
+      </Swiper>
+      <div
+        class="swiper-button-prev absolute inset-y-1/2 left-0 z-10 ms-4 flex cursor-pointer items-center justify-center"
       >
         <img
-          class="h-auto w-full lg:w-1/2"
-          src="/images/notice/notice_1.jpeg"
+          class="h-8 w-8 lg:h-20 lg:w-20"
+          src="/images/items/left_arrow.svg"
         />
-      </nuxt-link>
+      </div>
+      <div
+        class="swiper-button-next absolute inset-y-1/2 right-0 z-10 me-4 flex cursor-pointer items-center justify-center"
+      >
+        <img
+          class="h-8 w-8 lg:h-20 lg:w-20"
+          src="/images/items/right_arrow.svg"
+        />
+      </div>
     </div>
 
     <TextDefaultArea

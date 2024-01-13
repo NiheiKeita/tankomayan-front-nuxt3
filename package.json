@@ -26,5 +26,9 @@
     "prettier-plugin-tailwindcss": "^0.5.4",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "swiper": "^8.4.7",
+    "vue-awesome-swiper": "^5.0.1"
   }
 }
