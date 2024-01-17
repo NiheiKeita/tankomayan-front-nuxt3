@@ -1,5 +1,5 @@
 <template>
-  <div class="font-body text-[16px] lg:text-[17px]">
+  <div class="font-sans text-[16px] lg:text-[17px]">
     <TopHeader class="z-50" />
     <div class="lg:mx-[20%]"><slot /></div>
 
