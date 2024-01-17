@@ -19,6 +19,7 @@
     "@storybook/addon-essentials": "^7.6.9",
     "@storybook/addon-interactions": "^7.6.9",
     "@storybook/addon-links": "^7.6.9",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/blocks": "^7.6.9",
     "@storybook/test": "^7.6.9",
     "@storybook/vue3": "^7.6.9",
