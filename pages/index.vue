@@ -125,7 +125,7 @@
       /> -->
       <ButtonDefaultThema
         class="mb-3 mt-5 flex w-full items-center justify-center"
-        @click="navigateTo({ path: routePathList('character_list') })"
+        @click="linkToOtherWindow(routePathList('stamp_ando'))"
         ><img
           class="mx-1 h-6"
           src="@/assets/images/icon_LINE.png"
